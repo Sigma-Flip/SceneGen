@@ -9,6 +9,7 @@ However, most existing models still generate video from a single viewpoint, and 
 
 To overcome this limitation, our study proposes **scene-level multi-shot generation**, which does not produce video from a fixed viewpoint but instead naturally transitions across multiple viewpoints while remaining faithful to the given prompt.
 
+## Experiments
 
 
 <table>

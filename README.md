@@ -1,13 +1,33 @@
 # SceneGen
 Multi shot Scene generation
 
-## Background
+## 🟦 Background
 
 Recently, the field of video generation has made tremendous strides. Video generation techniques have improved video quality enhancement, frame interpolation, and consistent long-duration video synthesis across various applications. 
 
 However, most existing models still generate video from a single viewpoint, and creating new viewpoints requires a new prompt. 
 
 To overcome this limitation, our study proposes **scene-level multi-shot generation**, which does not produce video from a fixed viewpoint but instead naturally transitions across multiple viewpoints while remaining faithful to the given prompt.
+
+
+## 🟦 Commitments
+
+
+1. **Overcoming the difficulty of acquiring multi-shot video training data**  
+  
+   Existing multi-shot models require a separate prompt for each shot in order to train properly. This means manually providing an enormous number of prompts.  
+   
+   In contrast, our approach only requires the first prompt at the beginning of each scene; subsequent diverse shots are generated naturally. This can dramatically simplify and revolutionize video-based learning.
+
+2. **Training on real-world videos as they are**  
+  
+   Existing multi-shot models force a single character or object to appear consistently throughout the entire sequence. In reality, however, scenarios such as interviewer and interviewee conversations involve multiple participants alternating on screen, and it is rare to find videos in which only one object appears throughout.  
+   
+   Since our method learns the ordering of shots themselves, it can faithfully reproduce these more realistic, dynamic video patterns.
+
+
+
+
 
 ## Experiments
 

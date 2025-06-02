@@ -1,6 +1,13 @@
 # SceneGen
 Multi shot Scene generation
 
+## Background
+
+Recently, the field of video generation has made tremendous strides. Video generation techniques have improved video quality enhancement, frame interpolation, and consistent long-duration video synthesis across various applications. 
+
+However, most existing models still generate video from a single viewpoint, and creating new viewpoints requires a new prompt. 
+
+To overcome this limitation, our study proposes **scene-level multi-shot generation**, which does not produce video from a fixed viewpoint but instead naturally transitions across multiple viewpoints while remaining faithful to the given prompt.
 
 
 
